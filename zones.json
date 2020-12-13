@@ -1,0 +1,25 @@
+{
+    "google.com": {
+        "ttl": 3600,
+        "ns":[
+            {"host": "ns1.google.com"},
+            {"host": "ns2.google.com"},
+            {"host": "ns3.google.com"}
+        ],
+        "a":[
+            {"name": "@", "ttl": 400, "value": "8.8.8.8"},
+            {"name": "@", "ttl": 400, "value": "4.4.4.4"}
+        ]
+    },
+    "rabbit-company.com": {
+        "ttl": 3600,
+        "ns":[
+            {"host": "ns1.rabbit-company.com"},
+            {"host": "ns2.rabbit-company.com"}
+        ],
+        "a":[
+            {"name": "@", "ttl": 400, "value": "1.1.1.1"},
+            {"name": "@", "ttl": 400, "value": "9.9.9.9"}
+        ]
+    }
+}
